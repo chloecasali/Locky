@@ -1,1 +1,1 @@
-import './styles/locky.css';
+import './styles/locky.scss';
