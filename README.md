@@ -42,3 +42,15 @@ npm install sass-loader@^13.0.0 sass --save-dev
 ```
 @import "~bootstrap/scss/bootstrap";
 ```
+#### I create the two entities for the project by using these command:
+```
+php bin/console make:entity
+```
+#### For the entity 'Prestation', but for the entity 'Utilisateur', I do this:
+```
+php bin/console make:user 
+```
+#### I decide to add some fields to my Utilisateur entity, for that, I needed to use the make:entity and precise which entity I would like to edit:
+```
+php bin/console make:entity Utilisateur 
+```
